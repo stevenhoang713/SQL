@@ -28,15 +28,18 @@ VALUES
     (15, 'Cozy Throw Blanket', 'Furnishings', 24.99, 100, 4.2);
 
 # Order the items by price.
+
 SELECT item_name, price
 FROM superstore
 ORDER BY price desc;
 
 # Show the average price statistic for all items. 
+
 SELECT avg(price) AS avg_price
 FROM superstore;
 
 # Show average price for items in the Electronics category.
+
 SELECT avg(price) AS avg_price
 FROM superstore
 WHERE category = "Electronics"
