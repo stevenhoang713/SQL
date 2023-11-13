@@ -77,7 +77,7 @@ select quarter_number
 
 **Answer:**
 
-<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/5a4361d3-437c-4bce-89d5-6fee1ece9328.png">
+<img width="400" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/5a4361d3-437c-4bce-89d5-6fee1ece9328.png">
 
 Yes, customers appear to be getting more dissatisfied over time, as the proportion of "very_bad" ratings increases from 11% in Q1 to 31% in Q4, while "very_good" ratings decline.
 
@@ -126,7 +126,7 @@ select *
 
 **Answer:**
 
-<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/23584ff5-31fb-4534-961d-6022f5305a18.png">
+<img width="400" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/23584ff5-31fb-4534-961d-6022f5305a18.png">
 
 
 Chevrolet, Ford, Toyota, Pontiac, and Dodge emerges as the top five choices among customers and state. 
@@ -172,7 +172,7 @@ select quarter_number
 
 **Answer:**
 
-<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/93038445-8712-4028-b7e2-5768dec26b46.png">
+<img width="400" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/93038445-8712-4028-b7e2-5768dec26b46.png">
 
 There is a declining trend in quarter-over-quarter percentage change in revenue, with a 17% decrease from the first to the second quarter, an 11% decrease from the second to the third quarter, and a further 20% decrease from the third to the fourth quarter.
 
