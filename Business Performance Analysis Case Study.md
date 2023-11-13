@@ -18,6 +18,8 @@ select state
 
 Customer distribution across states is varied, with California and Texas having the highest numbers, and several states having lower customer counts.
 
+***
+
 ### 2. What is the average rating in each quarter?
 
 ````sql
@@ -41,7 +43,11 @@ select quarter_number
 
 **Answer:**
 
-<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/27cb3f0a-848b-4a55-9522-fef3773022e2"
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/27cb3f0a-848b-4a55-9522-fef3773022e2.png">
+
+The average rating decreases progressively across quarters, starting at 3.55 in Q1 and declining to 2.40 in Q4.
+
+***
 
 ### 3. Are customers getting more dissatisfied over time?
 
