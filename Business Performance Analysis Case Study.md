@@ -12,6 +12,10 @@ select state
  order by total_customers desc;
 ````
 
+**Answer:**
+<img width="141" alt="image" src=![customer_distribution](https://github.com/stevenhoang713/SQL/assets/145725846/8e126b0c-2a44-4d2c-8641-13850b525190)>
+
+
 ### 2. What is the average rating in each quarter?
 
 ````sql
@@ -32,6 +36,9 @@ select quarter_number
  group by quarter_number
  order by quarter_number;
 ````
+
+**Answer:**
+
 
 ### 3. Are customers getting more dissatisfied over time?
 
@@ -58,6 +65,9 @@ select quarter_number
  group by quarter_number
  order by quarter_number;
 ````
+
+**Answer:**
+
 
 ### 4. Which are the top 5 vehicle makers preferred by the customer?
 
@@ -92,6 +102,9 @@ select *
  order by total_customers desc;
 ````
 
+**Answer:**
+
+
 ### 6. What is the trend of number of orders by quarters?
 
 ````sql
@@ -101,6 +114,9 @@ select quarter_number
  group by quarter_number
  order by quarter_number;
 ````
+
+**Answer:**
+
 
 ### 7. What is the quarter over quarter % change in revenue?
 
@@ -121,6 +137,9 @@ select quarter_number
  group by quarter_number;
 ````
 
+**Answer:**
+
+
 ### 8. What is the trend of revenue and orders by quarters?
 
 ````sql
@@ -129,8 +148,11 @@ select quarter_number
      , count(order_id) as total_orders
   from order_t
  group by quarter_number
- order by quarter_number
+ order by quarter_number;
 ````
+
+**Answer:**
+
 
 ### 9. What is the average discount offered for different types of credit cards?
 
@@ -144,6 +166,9 @@ select c.credit_card_type
  order by average_discount desc;
 ````
 
+**Answer:**
+
+
 ### 10. What is the average time taken to ship the placed orders for each quarters?
 
 ````sql
@@ -153,3 +178,6 @@ select quarter_number
  group by quarter_number
  order by quarter_number;
 ````
+
+**Answer:**
+
