@@ -77,6 +77,11 @@ select quarter_number
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/5a4361d3-437c-4bce-89d5-6fee1ece9328.png">
+
+Yes, customers appear to be getting more dissatisfied over time, as the proportion of "very_bad" ratings increases from 11% in Q1 to 31% in Q4, while "very_good" ratings decline.
+
+***
 
 ### 4. Which are the top 5 vehicle makers preferred by the customer?
 
@@ -90,6 +95,14 @@ select p.vehicle_maker
  order by total_customers desc
  limit 5;
 ````
+
+**Answer:**
+
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/615d2232-8c28-44d1-870f-bfa18df216ce.png">
+
+The top 5 vehicle makers preferred by customers, based on the number of vehicles, are Chevrolet (83), Ford (63), Toyota (52), Pontiac (50), and Dodge (50).
+
+***
 
 ### 5. What is the most preferred vehicle make in each state?
 
@@ -113,6 +126,11 @@ select *
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/75f8bd6f-cc3b-4bc2-a716-acd15df34f70.png">
+
+Chevrolet, Ford, Toyota, Pontiac, and Dodge emerges as the top five choices among customers and state. 
+
+***
 
 ### 6. What is the trend of number of orders by quarters?
 
@@ -126,6 +144,11 @@ select quarter_number
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/ba124b89-dd36-4ed3-b7ce-77cc55cd047b.png">
+
+The trend of total orders declined across quarters, with a notable decrease from 310 in Q1 to 199 in Q4.
+
+***
 
 ### 7. What is the quarter over quarter % change in revenue?
 
@@ -148,6 +171,11 @@ select quarter_number
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/93038445-8712-4028-b7e2-5768dec26b46.png">
+
+There is a declining trend in quarter-over-quarter percentage change in revenue, with a 17% decrease from the first to the second quarter, an 11% decrease from the second to the third quarter, and a further 20% decrease from the third to the fourth quarter.
+
+***
 
 ### 8. What is the trend of revenue and orders by quarters?
 
@@ -162,6 +190,11 @@ select quarter_number
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/34068b2d-70d2-40a9-bd42-554313bd19db.png">
+
+There is a consistent decline in both revenue and total orders across quarters, indicating a potential correlation in the decreasing performance of the business over time.
+
+***
 
 ### 9. What is the average discount offered for different types of credit cards?
 
@@ -177,6 +210,11 @@ select c.credit_card_type
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/89a7e352-cdcd-4d29-a03a-008a539a4aef.png">
+
+Various credit cards receive different average discounts, with Laser having the highest at 0.64 and Diners Club International the lowest at 0.58.
+
+***
 
 ### 10. What is the average time taken to ship the placed orders for each quarters?
 
@@ -190,3 +228,8 @@ select quarter_number
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/77c92d6e-3c26-46bb-84ca-eb74cefb4cd1.png"
+
+The average time taken to ship placed orders increases gradually from 57 in Q1 to 174 in the Q4.
+
+***
