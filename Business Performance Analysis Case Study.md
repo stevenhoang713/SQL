@@ -34,3 +34,30 @@ select quarter_number
  order by quarter_number
 ;
 ````
+
+### 3. Are customers getting more dissatisfied over time?
+
+````sql
+with quarterly_feedback_summary as (
+	select quarter_number
+         , sum(case when customer_feedback = 'very good' then 1 else 0 end) as very_good
+		 , sum(case when customer_feedback = 'good' then 1 else 0 end) as good
+         , sum(case when customer_feedback = 'okay' then 1 else 0 end) as okay
+         , sum(case when customer_feedback = 'bad' then 1 else 0 end) as bad
+         , sum(case when customer_feedback = 'very bad' then 1 else 0 end) as very_bad
+         , count(customer_feedback) as total_feedback
+	  from order_t
+  group by quarter_number
+  order by quarter_number
+           ) 
+select quarter_number
+	 , round((very_good/total_feedback),2) as very_good
+	 , round((good/total_feedback),2) as good
+     , round((okay/total_feedback),2) as okay
+     , round((bad/total_feedback),2) as bad
+     , round((very_bad/total_feedback),2) as very_bad
+  from quarterly_feedback_summary
+ group by quarter_number
+ order by quarter_number
+;
+````
