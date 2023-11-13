@@ -1,0 +1,14 @@
+# 🚙 Business Performance Analysis Case Study
+
+## 📊 Business Outcomes  
+
+### 1. What is the distribution of customers across states?
+
+````sql
+select state
+     , count(customer_id) as total_customers
+  from customer_t
+ group by state
+ order by total_customers desc
+;
+````
