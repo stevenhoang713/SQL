@@ -13,7 +13,7 @@ select state
 ````
 
 **Answer:**
-<img width="141" alt="image" src=![customer_distribution](https://github.com/stevenhoang713/SQL/assets/145725846/8e126b0c-2a44-4d2c-8641-13850b525190)>
+<img width="141" alt="image" src="![customer_distribution](https://github.com/stevenhoang713/SQL/assets/145725846/09164e03-8679-494e-bc0a-77db22d2073f)">
 
 
 ### 2. What is the average rating in each quarter?
