@@ -16,6 +16,7 @@ select state
 
 <img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/09164e03-8679-494e-bc0a-77db22d2073f.png">
 
+Customer distribution across states is varied, with California and Texas having the highest numbers, and several states having lower customer counts.
 
 ### 2. What is the average rating in each quarter?
 
@@ -40,6 +41,7 @@ select quarter_number
 
 **Answer:**
 
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/27cb3f0a-848b-4a55-9522-fef3773022e2"
 
 ### 3. Are customers getting more dissatisfied over time?
 
