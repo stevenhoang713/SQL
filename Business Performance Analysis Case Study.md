@@ -126,7 +126,8 @@ select *
 
 **Answer:**
 
-<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/75f8bd6f-cc3b-4bc2-a716-acd15df34f70.png">
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/23584ff5-31fb-4534-961d-6022f5305a18.png">
+
 
 Chevrolet, Ford, Toyota, Pontiac, and Dodge emerges as the top five choices among customers and state. 
 
@@ -228,7 +229,7 @@ select quarter_number
 
 **Answer:**
 
-<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/77c92d6e-3c26-46bb-84ca-eb74cefb4cd1.png"
+<img width="250" alt="image" src="https://github.com/stevenhoang713/SQL/assets/145725846/77c92d6e-3c26-46bb-84ca-eb74cefb4cd1.png">
 
 The average time taken to ship placed orders increases gradually from 57 in Q1 to 174 in the Q4.
 
